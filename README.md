@@ -4,11 +4,11 @@
 
 > 📗🌐 Documents and implementations for the NEO Name Service.
 
-## Description
+## 📝 Description
 
 NNS is the NEO Name Service, a distributed, open, and extensible naming system based on the NEO blockchain.
 
-## Documents
+## 📚 Documents
 
 #### Table of Contents
 -  [Introduction](./docs/INTRODUCTION.md)
@@ -20,8 +20,8 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 -  [Developer Guide](./docs/DEVELOPER_GUIDE.md)
 -  [Integration](./docs/INTEGRATION.md)
 
-## Contributing
+## 📣 Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
 
-## Licence
+## 🗒 Licence
 See [LICENSE](./LICENSE) for details.
