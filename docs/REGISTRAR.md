@@ -1,7 +1,7 @@
 # Registrar
-Contract implement mechanism about interact with NNS and earn a domain.
+Contract implement mechanism about interact with NNS and earn a domain. Like [portal.neo]
 
-## FIFSRegistrar.java
+## NNSRegistrar.java
 Implementation of a simple first-in-first-served registrar, which issues (sub-)domains to the first account to request them.
 
 
