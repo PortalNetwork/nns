@@ -20,7 +20,3 @@ For example, such as ICO smart contract, the project party needs to disclose its
 
 ## The Expandability of NNS
 What kind of resource an alias should point to is flexible and can be implemented just by implementing the corresponding NNS resolvers. In addition to pointing to an address, it can also point to a contract address, thus enabling interaction through NNS and smart contracts.
-
-## NNS and Portal Network
-
-
