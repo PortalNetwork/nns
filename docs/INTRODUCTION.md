@@ -20,3 +20,8 @@ For example, such as ICO smart contract, the project party needs to disclose its
 
 ## The Expandability of NNS
 What kind of resource an alias should point to is flexible and can be implemented just by implementing the corresponding NNS resolvers. In addition to pointing to an address, it can also point to a contract address, thus enabling interaction through NNS and smart contracts.
+
+## Resources
+- [EIP137](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-137.md) - Ethereum Name Service
+- [EIP162](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-162.md) - Initial ENS Registrar Specification
+- [EIP1062](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1062.md) - Formalize IPFS hash into ENS(Ethereum Name Service) resolver
