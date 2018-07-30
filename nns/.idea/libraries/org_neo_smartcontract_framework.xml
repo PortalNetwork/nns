@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="org.neo.smartcontract.framework">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/org.neo.smartcontract.framework.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
