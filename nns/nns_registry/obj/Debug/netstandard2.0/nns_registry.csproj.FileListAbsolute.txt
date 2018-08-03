@@ -1,0 +1,9 @@
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/bin/Debug/netstandard2.0/nns_registry.deps.json
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/bin/Debug/netstandard2.0/nns_registry.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/bin/Debug/netstandard2.0/nns_registry.pdb
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.csprojAssemblyReference.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.csproj.CoreCompileInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.AssemblyInfoInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.AssemblyInfo.cs
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_registry/obj/Debug/netstandard2.0/nns_registry.pdb

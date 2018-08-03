@@ -1,0 +1,9 @@
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.csprojAssemblyReference.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.csproj.CoreCompileInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.AssemblyInfoInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.AssemblyInfo.cs
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/bin/Debug/netstandard2.0/nns_registrar.deps.json
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/bin/Debug/netstandard2.0/nns_registrar.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/bin/Debug/netstandard2.0/nns_registrar.pdb
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_registrar/obj/Debug/netstandard2.0/nns_registrar.pdb

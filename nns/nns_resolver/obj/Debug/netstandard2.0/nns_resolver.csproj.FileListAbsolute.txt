@@ -1,0 +1,9 @@
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.csprojAssemblyReference.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.csproj.CoreCompileInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.AssemblyInfoInputs.cache
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.AssemblyInfo.cs
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/bin/Debug/netstandard2.0/nns_resolver.deps.json
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/bin/Debug/netstandard2.0/nns_resolver.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/bin/Debug/netstandard2.0/nns_resolver.pdb
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.dll
+/Users/jacky/Desktop/work/neo/main_code/nns_resolver/obj/Debug/netstandard2.0/nns_resolver.pdb
