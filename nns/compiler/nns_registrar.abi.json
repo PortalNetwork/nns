@@ -1,5 +1,5 @@
 {
-    "hash":"0xd9a4631d1d6dc0740d79d2ac684e0244a2454f64",
+    "hash":"0xe9836793c2f8cfe2ff33bea035ac30d6c08b9b90",
     "entrypoint":"Main",
     "functions":
     [
@@ -17,6 +17,17 @@
                 }
             ],
             "returntype":"Any"
+        },
+        {
+            "name":"startAuction",
+            "parameters":
+            [
+                {
+                    "name":"domain",
+                    "type":"String"
+                }
+            ],
+            "returntype":"Boolean"
         }
     ],
     "events":
