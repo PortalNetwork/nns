@@ -1,8 +1,19 @@
 {
-    "hash":"0xe9836793c2f8cfe2ff33bea035ac30d6c08b9b90",
+    "hash":"0x11ec0f311de8ab9cfb2e58758670fcd94b098115",
     "entrypoint":"Main",
     "functions":
     [
+        {
+            "name":"nameHash",
+            "parameters":
+            [
+                {
+                    "name":"label",
+                    "type":"String"
+                }
+            ],
+            "returntype":"ByteArray"
+        },
         {
             "name":"Main",
             "parameters":
@@ -19,15 +30,75 @@
             "returntype":"Any"
         },
         {
-            "name":"startAuction",
+            "name":"isAvailable",
             "parameters":
             [
                 {
-                    "name":"domain",
+                    "name":"label",
                     "type":"String"
                 }
             ],
             "returntype":"Boolean"
+        },
+        {
+            "name":"startAuction",
+            "parameters":
+            [
+                {
+                    "name":"label",
+                    "type":"String"
+                }
+            ],
+            "returntype":"Boolean"
+        },
+        {
+            "name":"newBid",
+            "parameters":
+            [
+                {
+                    "name":"label",
+                    "type":"String"
+                },
+                {
+                    "name":"who",
+                    "type":"ByteArray"
+                },
+                {
+                    "name":"value",
+                    "type":"Integer"
+                }
+            ],
+            "returntype":"Boolean"
+        },
+        {
+            "name":"startAuctionAndBid",
+            "parameters":
+            [
+                {
+                    "name":"label",
+                    "type":"String"
+                },
+                {
+                    "name":"who",
+                    "type":"ByteArray"
+                },
+                {
+                    "name":"value",
+                    "type":"Integer"
+                }
+            ],
+            "returntype":"Boolean"
+        },
+        {
+            "name":"getAuctionState",
+            "parameters":
+            [
+                {
+                    "name":"label",
+                    "type":"String"
+                }
+            ],
+            "returntype":"Unknown:nns_registrar.Registrar/DomainUseState"
         }
     ],
     "events":
