@@ -1,0 +1,36 @@
+{
+    "hash":"0xddd5506889e8154b767c710d40f65b88c3525111",
+    "entrypoint":"Main",
+    "functions":
+    [
+        {
+            "name":"Main",
+            "parameters":
+            [
+                {
+                    "name":"operation",
+                    "type":"String"
+                },
+                {
+                    "name":"args",
+                    "type":"Array"
+                }
+            ],
+            "returntype":"Any"
+        },
+        {
+            "name":"getOwner",
+            "parameters":
+            [
+                {
+                    "name":"node",
+                    "type":"String"
+                }
+            ],
+            "returntype":"Unknown:nns_registry.Record"
+        }
+    ],
+    "events":
+    [
+    ]
+}
