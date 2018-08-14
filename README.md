@@ -16,7 +16,7 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
     - [Registry](./docs/REGISTRY.md)
     - [Registrar](./docs/REGISTRAR.md)
     - [Resolver](./docs/RESOLVER.md)
--  [Developer Guide](./docs/DEVELOPER_GUIDE.md)
+-  [Developer Guide](./nns/README.md)
 -  [Integration](./docs/INTEGRATION.md)
 
 ## 📣 Contributing
