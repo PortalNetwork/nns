@@ -80,7 +80,7 @@ namespace nns_registry
         return false;
       }
       
-      var newDomain = parentNode + "." + subNode;
+      var newDomain = subNode + "." + parentNode;
       var record = new Record();
       record.owner = newOwner;
       var ownerInfo = Helper.Serialize(record);

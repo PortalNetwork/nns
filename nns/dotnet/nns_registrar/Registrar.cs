@@ -19,7 +19,7 @@ namespace nns_registrar
     [Appcall("77e193f1af44a61ed3613e6e3442a0fc809bb4b8")]
     static extern object registryCall(string method, object[] arr);
 
-    public static readonly byte[] rootNode = SmartContract.Sha256("nns".AsByteArray());
+    public static readonly byte[] rootNode = SmartContract.Sha256("neo".AsByteArray());
 
     public Registrar()
     {
