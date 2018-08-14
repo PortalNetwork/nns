@@ -27,7 +27,7 @@
 
 1. before deploy contract, you should open wallet. ```open wallet portalnetwork.wallet```
 
-1. neo> deploy contract ```import contract ./contract/domain.avm "" 01 False False```
+1. deploy contract ```neo> import contract ./contract/domain.avm "" 01 False False```
 ![](https://i.imgur.com/a0XQOJO.png)
 
 1. ```neo> ontract search [your contract name]```
