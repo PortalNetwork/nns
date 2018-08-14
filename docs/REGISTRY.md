@@ -14,5 +14,5 @@ Owners of domains in the NNS registry may:
 
 The NNS registry is deliberately straightforward, and exists only to map from a name to the resolver responsible for it.
 
-## [NNS Registry](./nns/nns_registry)
+## [NNS Registry](./nns/dotnet/nns_registry)
 Implementation of the NNS Registry, the central contract used to look up resolvers and owners for domains.
