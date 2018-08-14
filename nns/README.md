@@ -8,9 +8,9 @@
 ![](https://i.imgur.com/mHDlagb.png)
 
 1. run neo private net ```python3 /opt/neo-python/prompt.py -c protocol.privnet.json``` 
-![](https://i.imgur.com/opDfFfU.png)
+![](https://i.imgur.com/opDfFfU.png)
 
-1. create wallet named portalnetwork.wallet ```neo> create wallet portalnetwork.wallet```
+1. create wallet named portalnetwork.wallet ```neo> create wallet portalnetwork.wallet```
 ![](https://i.imgur.com/Kaherpk.png)
 
 1. at this moment, portalnetwork.wallet has no NEO and NEOGas. run this command to import NEO and NEOGas ```neo> import wif KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr``` 
@@ -30,7 +30,7 @@
 1. deploy contract ```neo> import contract ./contract/domain.avm "" 01 False False```
 ![](https://i.imgur.com/a0XQOJO.png)
 
-1. ```neo> ontract search [your contract name]```
+1. ```neo> contract search [your contract name]```
 ![](https://i.imgur.com/YXMrjzD.png)
 
 1. test contract via command ```neo> testinvoke 68ebfc4fefbe24c9cff0f7e3c0d27ed396d07f9f```
