@@ -23,7 +23,7 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 -  [Integration](./docs/INTEGRATION.md)
 
 #### Contracts
-- [.NET Version](./nns/dotnet/)
+- [.NET](./nns/dotnet/)
 - [Python](./nns/python/)
 
 ## 📣 Contributing
