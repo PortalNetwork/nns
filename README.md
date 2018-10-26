@@ -34,16 +34,16 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 NNS plays an connecting and entry layer in Web3.0 services. It connects with NEO wallet, blockchain server, decentralized content resources, and decentralized database.
 ![NEO web3](./assets/NEO-web3.png)
 
-# NEO Smart Contract Development
+## NEO Smart Contract Development
 
 #### Smart Contract of NNS
 - [.NET](./nns/dotnet/)
 - [Python](./nns/python/)
 
-## Prerequisites
+### Prerequisites
 - `Docker` installed, download [HERE](https://download.docker.com/mac/stable/Docker.dmg).
 
-## Build using docker
+### Build using docker
 1. Execute command to start docker.
 ```
 docker run -d --name neo-privnet-with-gas -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp -v "$(pwd)":/opt/neo-python/smartContracts metachris/neo-privnet-with-gas
