@@ -29,9 +29,6 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 - [.NET](./nns/dotnet/)
 - [Python](./nns/python/)
 
-## 📃 Centralized and Decentralized Comparison
-![Comparision](./assets/comparison.png)
-
 ## 📍 NNS Workflow
 ![NEO web3](./assets/NEO-web3.png)
 
