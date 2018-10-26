@@ -37,7 +37,7 @@ NNS plays an connecting and entry layer in Web3.0 services. It connects with NEO
 ## NEO Smart Contract Development
 
 #### Smart Contract of NNS
-- [.NET](./nns/dotnet/)
+- [C#](./nns/dotnet/)
 - [Python](./nns/python/)
 
 ### Prerequisites
