@@ -29,7 +29,8 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 - [.NET](./nns/dotnet/)
 - [Python](./nns/python/)
 
-## 📍 NNS Workflow
+## 📍 NNS in Web3.0
+NNS plays an connecting and entry layer in Web3.0 services. It connects with NEO wallet, blockchain server, decentralized content resources, and decentralized database.
 ![NEO web3](./assets/NEO-web3.png)
 
 ## 📣 Contributing
