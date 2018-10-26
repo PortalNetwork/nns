@@ -34,6 +34,16 @@ NNS is the NEO Name Service, a distributed, open, and extensible naming system b
 NNS plays an connecting and entry layer in Web3.0 services. It connects with NEO wallet, blockchain server, decentralized content resources, and decentralized database.
 ![NEO web3](./assets/NEO-web3.png)
 
+## NEO Technical Stack
+![Technical Stack](./assets/1.png)
+![State Layer](./assets/1-02.png)
+![Computation Layer](./assets/1-03.png)
+![Component Layer](./assets/1-04.png)
+![Transfer Layer](./asstes/1-05.png)
+![Protocol Layer](./assets/1-06.png)
+![User Control Layer](./assets/1-07.png)
+![Application Layer](./assets/1-08.png)
+
 ## NEO Smart Contract Development
 
 #### Smart Contract of NNS
