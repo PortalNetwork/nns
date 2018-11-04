@@ -4,6 +4,8 @@
 
 > 📗🌐 Documents and implementations for the NEO Name Service.
 
+# Overview
+
 ## What is NEO?
 NEO is a non-profit community-driven blockchain project. It utilizes blockchain technology and digital identity to digitize assets and automate the management of digital assets using smart contracts. Using a distributed network, it aims to create a "Smart Economy".
 
@@ -69,6 +71,8 @@ This layer is in charge of managing a user’s private keys and the interaction 
 ### Application Layer
 NNS can be implemented into many other applications on NEO, such as wallet that can resolve NNS, dApp that utilize NNS for users identity and many more. Together with the off-chain scaling solution provided by Trinity Network, we believe that it is an essential components to provide a better environment for both technical and non-technical users.
 ![Application Layer](./assets/1-08.png)
+
+# Introduction
 
 ## NEO Smart Contract Development
 
