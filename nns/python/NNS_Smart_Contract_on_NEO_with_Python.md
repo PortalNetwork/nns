@@ -1,5 +1,71 @@
 # NNS Smart Contract on NEO with Python
 
+
+
+We have already tested our NNS contract on private chain for a while, now we are about to deploy our contract on testnet!
+
+
+
+## NNS ABI in Portal Network
+
+
+
+### owner (domain_name) : 
+
+Query domain, input domian name and return the owner of the domain.
+
+
+
+### release(domain_name):
+
+Release the domain which already owned by owner. Make this domain avaliable again.
+
+
+
+### register (domain_name, owner):
+
+Register a domain that can used all kind of the service.
+
+
+
+### transfer (domain_name, new owner):
+
+Transfer the ownership from owner to another address.
+
+
+
+### setAddress (domain_name, address):
+
+Let the domain owner can set the address owner want to map from domain.
+
+
+
+### addIPFS (domain_name, IPFS hash):
+
+Let domain owner can bind IPFS hash with the domain name.
+
+
+
+### setSubdomain (domain_name, subdomain):
+
+Let domain owner can set a subdomain with their domain.
+
+
+
+### getAddress (domain_name):
+
+Query the address owner registered with this domain.
+
+
+
+### getIPFS (domain_name):
+
+Query the IPFS owner registered with this domain.
+
+
+
+# NNS Smart Contract on NEO with Python
+
 #### NNS funciton 解釋
 
 在`Main(operation, args)` 中，透過不同的`operation` 來進行操作。
@@ -40,7 +106,7 @@
 
 
 
-####Build 合約的指令
+#### Build 合約的指令
 
 ```
 build {path/to/file.py} (test {params} {returntype} {needs_storage} {needs_dynamic_invoke} {test_params})
@@ -63,4 +129,85 @@ build {path/to/file.py} (test {params} {returntype} {needs_storage} {needs_dynam
 | Array            | 10         |
 | InteropInterface | f0         |
 | void             | ff         |
+
+
+
+
+
+
+
+Now we are already deployed the NNS contract on NEO testate, anyone who want to register a domain 
+
+
+
+
+
+
+
+
+
+## The testinvoke of our NNS contract
+
+```
+neo> build domain.py test 0710 05 True False False owner ["johnny"]                                                                                           
+[I 181029 17:04:00 BuildNRun:52] Saved output to domain.avm 
+[I 181029 17:04:00 Invoke:577] Used 0.178 Gas 
+
+-----------------------------------------------------------
+Calling domain.py with arguments ['["johnny"]', 'owner'] 
+Test deploy invoke successful
+Used total of 113 operations 
+Result [{'type': 'ByteArray', 'value': ''}] 
+Invoke TX gas cost: 0.0001 
+-------------------------------------------------------------
+
+neo> build domain.py test 0710 05 True False False register ["johnny","AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"]                                                   
+[I 181029 17:04:10 BuildNRun:52] Saved output to domain.avm 
+[I 181029 17:04:10 Invoke:577] Used 1.411 Gas 
+
+-----------------------------------------------------------
+Calling domain.py with arguments ['["johnny","AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"]', 'register'] 
+Test deploy invoke successful
+Used total of 172 operations 
+Result [{'type': 'ByteArray', 'value': '01'}] 
+Invoke TX gas cost: 0.0001 
+-------------------------------------------------------------
+
+neo> build domain.py test 0710 05 True False False owner ["johnny"]                                                                                           
+[I 181029 17:04:13 BuildNRun:52] Saved output to domain.avm 
+[I 181029 17:04:13 Invoke:577] Used 0.182 Gas 
+
+-----------------------------------------------------------
+Calling domain.py with arguments ['["johnny"]', 'owner'] 
+Test deploy invoke successful
+Used total of 118 operations 
+Result [{'type': 'ByteArray', 'value': '23ba2703c53263e8d6e522dc32203339dcd8eee9'}] 
+Invoke TX gas cost: 0.0001 
+-------------------------------------------------------------
+
+neo> build domain.py test 0710 05 True False False setAddress ["johnny","AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"]                                                 
+[I 181029 17:04:19 BuildNRun:52] Saved output to domain.avm 
+[I 181029 17:04:19 Invoke:577] Used 1.419 Gas 
+
+-----------------------------------------------------------
+Calling domain.py with arguments ['["johnny","AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"]', 'setAddress'] 
+Test deploy invoke successful
+Used total of 187 operations 
+Result [{'type': 'ByteArray', 'value': '01'}] 
+Invoke TX gas cost: 0.0001 
+-------------------------------------------------------------
+
+neo> build domain.py test 0710 05 True False False getAddress ["johnny"]                                                                                      
+[I 181029 17:04:26 BuildNRun:52] Saved output to domain.avm 
+[I 181029 17:04:26 Invoke:577] Used 0.344 Gas 
+
+-----------------------------------------------------------
+Calling domain.py with arguments ['["johnny"]', 'getAddress'] 
+Test deploy invoke successful
+Used total of 223 operations 
+Result [{'type': 'ByteArray', 'value': '23ba2703c53263e8d6e522dc32203339dcd8eee9'}] 
+Invoke TX gas cost: 0.0001 
+-------------------------------------------------------------
+
+```
 
