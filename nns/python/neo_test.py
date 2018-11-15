@@ -11,7 +11,7 @@
 from boa.interop.Neo.Runtime import Log, Notify
 from boa.interop.Neo.Storage import Get, Put, GetContext
 from boa.interop.Neo.Runtime import GetTrigger,CheckWitness
-from boa.builtins import concat,substr,take
+from boa.builtins import concat,substr,range
 
 
 
@@ -95,8 +95,7 @@ def Main(operation, args):
         
         domain_name = args[0]
         return GetIPFSHash(domain_name)
-
-
+    
 
 
 
@@ -118,6 +117,13 @@ def RegisterDomain(domain_name, owner):
     msg = concat("RegisterDomain: ", domain_name)
     Notify(msg)
     
+    '''
+    Check if the domain contain .
+    if ture then return false
+    '''
+    if detectStr(domain_name) == 1:
+        Notify("Domain has incorrect char inside")
+        return False
         
 
     if not CheckWitness(owner):
@@ -252,18 +258,9 @@ def GetIPFSHash(domain_name):
     return address
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+def detectStr(detect):
+    for i in range(0, len(detect)):
+        if substr(detect, i, 1) == ".":
+            return True
+        
+    return False
